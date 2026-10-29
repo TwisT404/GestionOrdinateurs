@@ -1,0 +1,46 @@
+@page "/computers"
+@using Microsoft.AspNetCore.Authorization
+
+@attribute [Authorize]
+@inject IComputerService ComputerService
+
+<PageTitle>Ordinateurs</PageTitle>
+
+<h3>Ordinateurs</h3>
+
+@if (computers is null || computers.Count == 0)
+{
+    <div class="alert alert-info">Aucun ordinateur à afficher.</div>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nom</th>
+                <th>Marque</th>
+                <th>Vendu</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var c in computers)
+            {
+                <tr>
+                    <td>@c.Nom</td>
+                    <td>@c.Marque</td>
+                    <td>@c.Vendu</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<ComputerDto>? computers;
+    
+    protected override async Task OnInitializedAsync()
+    {
+        computers = await ComputerService.GetComputers();
+    }
+}

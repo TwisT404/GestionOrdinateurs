@@ -1,0 +1,48 @@
+@page "/reparations"
+@using Microsoft.AspNetCore.Authorization
+@attribute [Authorize]
+@inject IReparationService ReparationService
+
+<PageTitle>Réparations</PageTitle>
+
+<h3>Réparations</h3>
+
+@if (reparations is null || reparations.Count == 0)
+{
+    <div class="alert alert-info">Aucune réparation à afficher.</div>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Description</th>
+                <th>Date</th>
+                <th>Statut</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var r in reparations)
+            {
+                <tr>
+                    <td>@r.UnOrdinateur</td>
+                    <td>@r.DateDebut</td>
+                    <td>@r.DateDebut.ToString("dd/MM/yyyy")</td>
+                    <td>@r.Technicien</td>
+                    <td>@r.statut</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<ReparationDto>? reparations;
+
+    protected override async Task OnInitializedAsync()
+    {
+        reparations = await ReparationService.GetReparations();
+                
+    }
+}
