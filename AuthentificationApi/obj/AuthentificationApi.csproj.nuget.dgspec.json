@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\twist\\Documents\\workspace\\EFREI\\S7\\DOTNET & C#\\TP5\\GestionOrdinateurs\\AuthentificationApi\\AuthentificationApi.csproj": {}
+    "C:\\Users\\twist\\Documents\\workspace\\EFREI\\S7\\DOTNET & C#\\TP6\\GestionOrdinateurs\\AuthentificationApi\\AuthentificationApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\twist\\Documents\\workspace\\EFREI\\S7\\DOTNET & C#\\TP5\\GestionOrdinateurs\\AuthentificationApi\\AuthentificationApi.csproj": {
+    "C:\\Users\\twist\\Documents\\workspace\\EFREI\\S7\\DOTNET & C#\\TP6\\GestionOrdinateurs\\AuthentificationApi\\AuthentificationApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\twist\\Documents\\workspace\\EFREI\\S7\\DOTNET & C#\\TP5\\GestionOrdinateurs\\AuthentificationApi\\AuthentificationApi.csproj",
+        "projectUniqueName": "C:\\Users\\twist\\Documents\\workspace\\EFREI\\S7\\DOTNET & C#\\TP6\\GestionOrdinateurs\\AuthentificationApi\\AuthentificationApi.csproj",
         "projectName": "AuthentificationApi",
-        "projectPath": "C:\\Users\\twist\\Documents\\workspace\\EFREI\\S7\\DOTNET & C#\\TP5\\GestionOrdinateurs\\AuthentificationApi\\AuthentificationApi.csproj",
+        "projectPath": "C:\\Users\\twist\\Documents\\workspace\\EFREI\\S7\\DOTNET & C#\\TP6\\GestionOrdinateurs\\AuthentificationApi\\AuthentificationApi.csproj",
         "packagesPath": "C:\\Users\\twist\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\twist\\Documents\\workspace\\EFREI\\S7\\DOTNET & C#\\TP5\\GestionOrdinateurs\\AuthentificationApi\\obj\\",
+        "outputPath": "C:\\Users\\twist\\Documents\\workspace\\EFREI\\S7\\DOTNET & C#\\TP6\\GestionOrdinateurs\\AuthentificationApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\twist\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -27,8 +27,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\twist\\Documents\\workspace\\EFREI\\S7\\DOTNET & C#\\TP5\\GestionOrdinateurs\\GestionOrdinateurs.Shared\\GestionOrdinateurs.Shared.csproj": {
-                "projectPath": "C:\\Users\\twist\\Documents\\workspace\\EFREI\\S7\\DOTNET & C#\\TP5\\GestionOrdinateurs\\GestionOrdinateurs.Shared\\GestionOrdinateurs.Shared.csproj"
+              "C:\\Users\\twist\\Documents\\workspace\\EFREI\\S7\\DOTNET & C#\\TP6\\GestionOrdinateurs\\GestionOrdinateurs.Shared\\GestionOrdinateurs.Shared.csproj": {
+                "projectPath": "C:\\Users\\twist\\Documents\\workspace\\EFREI\\S7\\DOTNET & C#\\TP6\\GestionOrdinateurs\\GestionOrdinateurs.Shared\\GestionOrdinateurs.Shared.csproj"
               }
             }
           }
@@ -504,14 +504,14 @@
         }
       }
     },
-    "C:\\Users\\twist\\Documents\\workspace\\EFREI\\S7\\DOTNET & C#\\TP5\\GestionOrdinateurs\\GestionOrdinateurs.Shared\\GestionOrdinateurs.Shared.csproj": {
+    "C:\\Users\\twist\\Documents\\workspace\\EFREI\\S7\\DOTNET & C#\\TP6\\GestionOrdinateurs\\GestionOrdinateurs.Shared\\GestionOrdinateurs.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\twist\\Documents\\workspace\\EFREI\\S7\\DOTNET & C#\\TP5\\GestionOrdinateurs\\GestionOrdinateurs.Shared\\GestionOrdinateurs.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\twist\\Documents\\workspace\\EFREI\\S7\\DOTNET & C#\\TP6\\GestionOrdinateurs\\GestionOrdinateurs.Shared\\GestionOrdinateurs.Shared.csproj",
         "projectName": "GestionOrdinateurs.Shared",
-        "projectPath": "C:\\Users\\twist\\Documents\\workspace\\EFREI\\S7\\DOTNET & C#\\TP5\\GestionOrdinateurs\\GestionOrdinateurs.Shared\\GestionOrdinateurs.Shared.csproj",
+        "projectPath": "C:\\Users\\twist\\Documents\\workspace\\EFREI\\S7\\DOTNET & C#\\TP6\\GestionOrdinateurs\\GestionOrdinateurs.Shared\\GestionOrdinateurs.Shared.csproj",
         "packagesPath": "C:\\Users\\twist\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\twist\\Documents\\workspace\\EFREI\\S7\\DOTNET & C#\\TP5\\GestionOrdinateurs\\GestionOrdinateurs.Shared\\obj\\",
+        "outputPath": "C:\\Users\\twist\\Documents\\workspace\\EFREI\\S7\\DOTNET & C#\\TP6\\GestionOrdinateurs\\GestionOrdinateurs.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\twist\\AppData\\Roaming\\NuGet\\NuGet.Config"

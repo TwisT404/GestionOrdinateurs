@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FODYt51OAfU=",
+  "dgSpecHash": "YR50WyJ3Xm4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\twist\\Documents\\workspace\\EFREI\\S7\\DOTNET & C#\\TP5\\GestionOrdinateurs\\GestionOrdinateurs.Gateway\\GestionOrdinateurs.Gateway.csproj",
+  "projectFilePath": "C:\\Users\\twist\\Documents\\workspace\\EFREI\\S7\\DOTNET & C#\\TP6\\GestionOrdinateurs\\GestionOrdinateurs.Gateway\\GestionOrdinateurs.Gateway.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\twist\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\10.0.13\\microsoft.aspnetcore.authentication.jwtbearer.10.0.13.nupkg.sha512",
     "C:\\Users\\twist\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.12\\microsoft.aspnetcore.openapi.10.0.12.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\twist\\Documents\\workspace\\EFREI\\S7\\DOTNET & C#\\TP5\\GestionOrdinateurs\\GestionOrdinateurs.Gateway\\GestionOrdinateurs.Gateway.csproj": {}
+    "C:\\Users\\twist\\Documents\\workspace\\EFREI\\S7\\DOTNET & C#\\TP6\\GestionOrdinateurs\\GestionOrdinateurs.Gateway\\GestionOrdinateurs.Gateway.csproj": {}
   },
   "projects": {
-    "C:\\Users\\twist\\Documents\\workspace\\EFREI\\S7\\DOTNET & C#\\TP5\\GestionOrdinateurs\\GestionOrdinateurs.Gateway\\GestionOrdinateurs.Gateway.csproj": {
+    "C:\\Users\\twist\\Documents\\workspace\\EFREI\\S7\\DOTNET & C#\\TP6\\GestionOrdinateurs\\GestionOrdinateurs.Gateway\\GestionOrdinateurs.Gateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\twist\\Documents\\workspace\\EFREI\\S7\\DOTNET & C#\\TP5\\GestionOrdinateurs\\GestionOrdinateurs.Gateway\\GestionOrdinateurs.Gateway.csproj",
+        "projectUniqueName": "C:\\Users\\twist\\Documents\\workspace\\EFREI\\S7\\DOTNET & C#\\TP6\\GestionOrdinateurs\\GestionOrdinateurs.Gateway\\GestionOrdinateurs.Gateway.csproj",
         "projectName": "GestionOrdinateurs.Gateway",
-        "projectPath": "C:\\Users\\twist\\Documents\\workspace\\EFREI\\S7\\DOTNET & C#\\TP5\\GestionOrdinateurs\\GestionOrdinateurs.Gateway\\GestionOrdinateurs.Gateway.csproj",
+        "projectPath": "C:\\Users\\twist\\Documents\\workspace\\EFREI\\S7\\DOTNET & C#\\TP6\\GestionOrdinateurs\\GestionOrdinateurs.Gateway\\GestionOrdinateurs.Gateway.csproj",
         "packagesPath": "C:\\Users\\twist\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\twist\\Documents\\workspace\\EFREI\\S7\\DOTNET & C#\\TP5\\GestionOrdinateurs\\GestionOrdinateurs.Gateway\\obj\\",
+        "outputPath": "C:\\Users\\twist\\Documents\\workspace\\EFREI\\S7\\DOTNET & C#\\TP6\\GestionOrdinateurs\\GestionOrdinateurs.Gateway\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\twist\\AppData\\Roaming\\NuGet\\NuGet.Config"

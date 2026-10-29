@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZF+5G/DzVDU=",
+  "dgSpecHash": "D2/4Etgt6Ro=",
   "success": true,
-  "projectFilePath": "C:\\Users\\twist\\Documents\\workspace\\EFREI\\S7\\DOTNET & C#\\TP5\\GestionOrdinateurs\\AuthentificationApi\\AuthentificationApi.csproj",
+  "projectFilePath": "C:\\Users\\twist\\Documents\\workspace\\EFREI\\S7\\DOTNET & C#\\TP6\\GestionOrdinateurs\\AuthentificationApi\\AuthentificationApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\twist\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\10.0.13\\microsoft.aspnetcore.authentication.jwtbearer.10.0.13.nupkg.sha512",
     "C:\\Users\\twist\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\10.0.13\\microsoft.aspnetcore.identity.entityframeworkcore.10.0.13.nupkg.sha512",

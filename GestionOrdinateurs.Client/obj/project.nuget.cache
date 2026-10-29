@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r2x6KfVWl4U=",
+  "dgSpecHash": "bPe08Hgt+IA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\twist\\Documents\\workspace\\EFREI\\S7\\DOTNET & C#\\TP5\\GestionOrdinateurs\\GestionOrdinateurs.Client\\GestionOrdinateurs.Client.csproj",
+  "projectFilePath": "C:\\Users\\twist\\Documents\\workspace\\EFREI\\S7\\DOTNET & C#\\TP6\\GestionOrdinateurs\\GestionOrdinateurs.Client\\GestionOrdinateurs.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\twist\\.nuget\\packages\\blazored.sessionstorage\\2.4.0\\blazored.sessionstorage.2.4.0.nupkg.sha512",
     "C:\\Users\\twist\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.12\\microsoft.aspnetcore.app.internal.assets.10.0.12.nupkg.sha512",

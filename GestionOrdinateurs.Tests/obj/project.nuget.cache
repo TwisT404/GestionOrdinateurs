@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Un488sD6Xo0=",
+  "dgSpecHash": "1xBX86FvY1M=",
   "success": true,
-  "projectFilePath": "C:\\Users\\twist\\Documents\\workspace\\EFREI\\S7\\DOTNET & C#\\TP5\\GestionOrdinateurs\\GestionOrdinateurs.Tests\\GestionOrdinateurs.Tests.csproj",
+  "projectFilePath": "C:\\Users\\twist\\Documents\\workspace\\EFREI\\S7\\DOTNET & C#\\TP6\\GestionOrdinateurs\\GestionOrdinateurs.Tests\\GestionOrdinateurs.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\twist\\.nuget\\packages\\coverlet.collector\\6.0.4\\coverlet.collector.6.0.4.nupkg.sha512",
     "C:\\Users\\twist\\.nuget\\packages\\fluentassertions\\8.11.0\\fluentassertions.8.11.0.nupkg.sha512",
