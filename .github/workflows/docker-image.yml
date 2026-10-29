@@ -1,4 +1,4 @@
-name: GestionOrdianteurs
+name: GestionOrdinateurs
 
 on:
   workflow_dispatch:
