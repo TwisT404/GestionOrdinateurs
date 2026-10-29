@@ -13,7 +13,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowBlazorClient", policy =>
     {
-        policy.WithOrigins("http://localhost:5156") //Url du clien Blazor
+        policy.WithOrigins("http://localhost:5000") //Url du clien Blazor
               .AllowAnyHeader()
               .AllowAnyMethod()
               .AllowCredentials() // si cookies

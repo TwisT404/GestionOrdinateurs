@@ -12,17 +12,19 @@ RUN dotnet restore ./GestionOrdinateurs.Client
 # Copy the remaining source code
 COPY GestionOrdinateurs.Client/ ./GestionOrdinateurs.Client/
 COPY GestionOrdinateurs.Shared/ ./GestionOrdinateurs.Shared/
+
+#Copie du reste des sources
+COPY . .
+
 RUN dotnet publish ./GestionOrdinateurs.Client -c Release -o out --no-restore
 
 # =========================
 # Runtime
 # =========================
-FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS runtime
-WORKDIR /app
-COPY --from=build /app/out ./
+FROM nginx:alpine AS runtime
+COPY --from=build /app/out/wwwroot /usr/share/nginx/html
+COPY GestionOrdinateurs.Client/nginx.conf /etc/nginx/conf.d/default.conf
 
-ENV ASPNETCORE_ENVIRONMENT=Development
-ENV ASPNETCORE_URLS=http://+:5157
 
-EXPOSE 5157
-ENTRYPOINT ["dotnet", "GestionOrdinateurs.Client.dll"]
+EXPOSE 5000
+CMD ["nginx", "-g", "daemon off;"]
