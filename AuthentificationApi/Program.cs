@@ -15,10 +15,10 @@ builder.Services.AddCors(options =>
 
 builder.Services.AddHttpClient<IUserService, UserService>("HttpAuthAPI", client =>
 {
-    client.BaseAddress = new Uri("http://localhost:5035"); //Url GestionOrdinateurs.API
+        client.BaseAddress = new Uri("http://gestionordinateurs-api:5156"); //Url GestionOrdinateurs.API
 });
 
-var app = builder.Build();
+    var app = builder.Build();
 //Activer CORS
 app.UseCors("AllowBlazorClient");
 if (app.Environment.IsDevelopment())

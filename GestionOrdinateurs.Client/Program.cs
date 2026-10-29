@@ -20,7 +20,7 @@ builder.Services.AddScoped<JwtHandler>();
 //Authentification
 builder.Services.AddHttpClient<IAuthentificationService, AuthentificationService>("HttpClient", client =>
 {
-    client.BaseAddress = new Uri("http://localhost:5209");// Url Authentifcation 
+    client.BaseAddress = new Uri("http://localhost:5157");// Url Authentifcation
    
 })
 .AddHttpMessageHandler<JwtHandler>();
@@ -28,14 +28,14 @@ builder.Services.AddHttpClient<IAuthentificationService, AuthentificationService
 //Lien API pour les ordinateurs -> Client
 builder.Services.AddHttpClient<IComputerService, ComputerService>("HttpClientComputer", client =>
 {
-    client.BaseAddress = new Uri("http://localhost:5010"); //Url Gateway
+    client.BaseAddress = new Uri("http://localhost:5158"); //Url Gateway
    
 });
 
 //Lien API pour les reparation -> Client
 builder.Services.AddHttpClient<IReparationService, ReparationService>("HttpClientReparation", client =>
 {
-    client.BaseAddress = new Uri("http://localhost:5010"); //Url Gateway
+    client.BaseAddress = new Uri("http://localhost:5158"); //Url Gateway
    
 });
 
