@@ -5,11 +5,11 @@ namespace MySecureApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class AuthController : ControllerBase
+    public class KeycloakAuthController : ControllerBase
     {
         private readonly KeycloakAuthService _keycloakAuthService;
 
-        public AuthController(KeycloakAuthService keycloakAuthService)
+        public KeycloakAuthController(KeycloakAuthService keycloakAuthService)
         {
             _keycloakAuthService = keycloakAuthService;
         }

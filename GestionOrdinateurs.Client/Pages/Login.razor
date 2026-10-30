@@ -11,8 +11,11 @@
 {
     <div class="alert alert-danger mt-2">@ErrorMessage</div>
 }
-
+<label>Login :</label>
 <InputText @bind-Value="Token" class="form-control" />
+
+<label>Password :</label>
+<InputText @bind-Value="Password" class="form-control" />
 
 <button class="btn btn-primary mt-2" @onclick="SaveToken">
     Se connecter
@@ -21,11 +24,12 @@
 @code
 {
     private string Token = "";
+    private string Password = "";
     private string? ErrorMessage;
 
     private async Task SaveToken()
     {
-        var user = await AuthService.LogAsync(Token);
+        var user = await AuthService.LogAsync(Token, Password);
          if (!string.IsNullOrEmpty(user))
         {
             await SessionStorage.SetItemAsync("jwtToken", user);

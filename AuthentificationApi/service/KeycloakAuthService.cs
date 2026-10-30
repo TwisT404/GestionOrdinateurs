@@ -39,7 +39,13 @@ namespace MySecureApi
                 return tokenResult!;
             }
 
-            throw new Exception("failed");
+            // throw new Exception("failed");
+            var errorBody = await response.Content.ReadAsStringAsync();
+
+            throw new HttpRequestException(
+                $"Keycloak a répondu {(int)response.StatusCode} ({response.StatusCode}) : {errorBody}",
+                null,
+                response.StatusCode);
         }
     }
 
