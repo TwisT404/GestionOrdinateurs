@@ -196,3 +196,4 @@ C:\Users\twist\Documents\workspace\EFREI\S7\DOTNET & C#\TP6\GestionOrdinateurs\G
 C:\Users\twist\Documents\workspace\EFREI\S7\DOTNET & C#\TP6\GestionOrdinateurs\GestionOrdinateurs.API\obj\Debug\net10.0\GestionOrdinateurs.API.pdb
 C:\Users\twist\Documents\workspace\EFREI\S7\DOTNET & C#\TP6\GestionOrdinateurs\GestionOrdinateurs.API\obj\Debug\net10.0\GestionOrdinateurs.API.genruntimeconfig.cache
 C:\Users\twist\Documents\workspace\EFREI\S7\DOTNET & C#\TP6\GestionOrdinateurs\GestionOrdinateurs.API\obj\Debug\net10.0\ref\GestionOrdinateurs.API.dll
+C:\Users\twist\Documents\workspace\EFREI\S7\DOTNET & C#\TP6\GestionOrdinateurs\GestionOrdinateurs.API\bin\Debug\net10.0\parcinfo.db
